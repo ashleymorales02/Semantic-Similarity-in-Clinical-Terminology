@@ -11,7 +11,7 @@ In the medical field, different terms often describe the same concept (e.g., "My
 
 ## 🛠 Tech Stack
 - **Language:** Python 3.x
-- **Libraries:** (Note: Add the ones you used, e.g., `NLTK`, `NumPy`, `Scikit-learn`, or `Pandas`)
+- **Libraries:** NumPy, Gensim
 - **Logic:** Weighted Vector Similarity / String Matching Algorithms
 
 ## 🧠 How It Works
