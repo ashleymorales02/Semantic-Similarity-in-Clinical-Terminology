@@ -1,0 +1,24 @@
+Ashley Morales
+CMPG638 Project II Instructions
+
+There are two scripts for ProjectII: tags.py and conceptID.py
+
+1.	The first will find all active concepts with specified tag, and compare a given term to the list of FSN’s for those active tagged concepts
+2.	The second will create a list of all active FSN’s and ask you to enter a concept id to compare to the whole list
+
+The first script, tags.py, will ask the user to enter the tag for concepts you want, e.g., “(disorder)”.
+It will then ask you to enter a term to compare to that list and will first compare all terms according to their cosine distance.
+This list will be sorted in descending order so the higher scores at the top of the list represent more similar terms.
+It will then take the top 10 elements and run them through the PubMed and CODER Bert models to get the semantic similarity.
+
+The conceptsID.py script is very similar to the first.
+The only difference is that the user will be asked to enter a concept id and the program will retrieve the specified term for that id.
+It will then compare that term to all active FSN’s just like the above.
+
+*Two models were used for semantic similarity because it appears that PubMed Bert consistently gives very high scores that may not always be accurate.
+Thus, I added another model to provide more accurate similarities by providing different weights for each score.
+PubMed has a 60% weight on the total and CODER has a 40% weight.
+
+Reference
+https://techblog.ezra.com/semantic-similarity-measurement-in-clinical-text-c34011e67408
+
