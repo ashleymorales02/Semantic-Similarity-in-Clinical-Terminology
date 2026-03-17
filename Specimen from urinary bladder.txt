@@ -1,0 +1,29 @@
+CID	FSN
+450872001	Specimen from urinary bladder (specimen)
+446130001	Urine specimen from bladder (specimen)
+Score: 0.9701309323310852
+
+450872001	Specimen from urinary bladder (specimen)
+16216491000119102	Urinary bladder specimen obtained by lavage (specimen)
+Score: 0.9518948316574096
+
+450872001	Specimen from urinary bladder (specimen)
+16214091000119101	Specimen from anterior wall of urinary bladder obtained by biopsy (specimen)
+Score: 0.930176603794098
+
+450872001	Specimen from urinary bladder (specimen)
+396685001	Specimen from urinary bladder obtained by radical cystectomy (specimen)
+Score: 0.9407128095626831
+
+450872001	Specimen from urinary bladder (specimen)
+16213931000119103	Specimen from dome of urinary bladder obtained by biopsy (specimen)
+Score: 0.932385265827179
+
+450872001	Specimen from urinary bladder (specimen)
+699287008	Urine specimen obtained via suprapubic indwelling urinary catheter (specimen)
+Score: 0.9184801697731018
+
+450872001	Specimen from urinary bladder (specimen)
+16214011000119105	Specimen from trigone of urinary bladder obtained by biopsy (specimen)
+Score: 0.9366350650787354
+
