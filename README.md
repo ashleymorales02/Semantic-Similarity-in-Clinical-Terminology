@@ -18,4 +18,4 @@ In the medical field, different terms often describe the same concept (e.g., "My
 The tool takes two input strings (clinical terms) and performs the following:
 1. **Preprocessing:** Cleaning and tokenizing the medical text.
 2. **Analysis:** Comparing terms against a reference set or using a vector-based approach.
-3. **Scoring:** Applying a weighted coefficient to penalize common "filler" words and prioritize unique medical identifiers.
+3. **Scoring:** Applying a weighted coefficient to find similar medical terms and/or concepts.
