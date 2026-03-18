@@ -3,7 +3,7 @@
 A Python-based tool designed to quantify the semantic relationship between complex clinical terms and medical concepts.
 
 ## 🎯 Overview
-In the medical field, different terms often describe the same concept (e.g., "Myocardial Infarction" vs. "Heart Attack"). This tool evaluates how closely related two clinical terms are by using a weighted scoring algorithm, which helps in mapping clinical data and reducing ambiguity in medical records.
+This tool uses two different scripts to evaluate how closely related two clinical terms given a decriptive file of clinical terms and concepts.  
 
 ## 🚀 Features
 - **Semantic Comparison:** Calculates similarity scores between pairs of clinical terms.
